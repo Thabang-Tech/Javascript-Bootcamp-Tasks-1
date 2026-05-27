@@ -23,10 +23,10 @@ console.log(favoriteColor)
 let num1 = 30
 let num2 = 15
 
-let sum = num1 + num2
-let difference = num1 - num2
-let product = num1 * num
-let quotation = num1 / num2
+sum = num1 + num2
+difference = num1 - num2
+product = num1 * num2
+quotient = num1 / num2
 
 console.log(sum)
 console.log(difference)
