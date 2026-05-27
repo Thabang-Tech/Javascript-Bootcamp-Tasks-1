@@ -21,13 +21,18 @@ console.log(exponentiation)
 //boolean and operators
 //1
 
-let x = 8
-let y = 12
+let x = 20
+let y = 30
 
-console.log(x > y)
-console.log(x <= y)
-console.log(x == y)
-console.log(x != y)
+greater = x > y
+lessOrEqual = x <= y
+equal = x == y
+notEqual = x != y
+
+console.log(greater)
+console.log(lessOrEqual)
+console.log(equal)
+console.log(notEqual)
 
 //2
 
