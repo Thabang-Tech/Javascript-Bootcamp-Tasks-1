@@ -1,3 +1,5 @@
+//numbers
+
 let integer = 10
 let float = 2.5
 
@@ -15,3 +17,48 @@ console.log(multiplication)
 console.log(division)
 console.log(modulus)
 console.log(exponentiation)
+
+//boolean and operators
+//1
+
+let x = 8
+let y = 12
+
+console.log(x > y)
+console.log(x <= y)
+console.log(x == y)
+console.log(x != y)
+
+//2
+
+let x = 8
+let y = 12
+
+console.log(x > y)
+console.log(x <= y)
+console.log(x == y)
+console.log(x != y)
+
+//3
+
+let a = true
+let b = false
+
+console.log(a && b)
+console.log(a || b)
+console.log(! a)
+
+//4
+
+let p = 10
+
+console.log(p += 20)
+console.log(p -= 20)
+console.log(p *= 20)
+console.log(p /= 20)
+console.log(p %= 20)
+
+
+
+
+
