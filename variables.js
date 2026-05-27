@@ -20,5 +20,15 @@ console.log(favoriteColor)
 
 // Arithmatic Operations
 
-num1 = 10
-num2 = 20
+let num1 = 30
+let num2 = 15
+
+let sum = num1 + num2
+let difference = num1 - num2
+let product = num1 * num
+let quotation = num1 / num2
+
+console.log(sum)
+console.log(difference)
+console.log(product)
+console.log(quotient)
