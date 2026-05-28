@@ -1,19 +1,16 @@
-let Temperature = 20
+//Temperature check
 
-switch(true){
+let temperature = 0
 
-    case Temperature < 0 :
-        console.log('It is freezing')
-    break
-
-    case Temperature >= 0 && Temperature <= 15 :
-        console.log('It is cold')
-    break
-
-    case Temperature >= 16 && Temperature <= 25 :
-        console.log('It is normal - room temperature')
-    break
-
-    default:
-        console.log('It is warm')
+if (temperature < 0){
+    console.log('It is freezing')
+}
+else if (temperature >= 0 && temperature <= 15){
+    console.log('It is cold')
+}
+else if (temperature >= 16 && temperature <= 25){
+    console.log('It is mild')
+}
+else if (temperature > 25){
+    console.log('It is warm')
 }

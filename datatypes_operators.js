@@ -24,12 +24,20 @@ console.log(exponentiation)
 let x = 20
 let y = 30
 
+strictEqual = x === y
+strictNotEqual = x !== y
 greater = x > y
+greaterOrEqual = x >= y
+less = x < y
 lessOrEqual = x <= y
 equal = x == y
 notEqual = x != y
 
+console.log(strictEqual)
+console.log(strictNotEqual)
 console.log(greater)
+console.log(greaterOrEqual)
+console.log(less)
 console.log(lessOrEqual)
 console.log(equal)
 console.log(notEqual)
