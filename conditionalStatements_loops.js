@@ -1,39 +1,44 @@
 //1. Temperature check
     //(i). If...
 
+
 let temperature = 0
-let weather
 
 if (temperature < 0){
-    weather = "freezing"
+    console.log("It is freezing")
 }
 else if (temperature >= 0 && temperature <= 15){
-    weather = "cold"
+    console.log("It is cold")
 }
 else if (temperature >= 16 && temperature <= 25){
-    weather = "mild"
+    console.log("It is mild")
 }
 else if (temperature > 25){
-    weather = "warm"
+    console.log("It is warm")
+}
+else{
+    console.log("Unknown weather")
 }
 
-  //()
+//(ii) Switch
 
-switch (weather){
+let temperature = 0
 
-    case "freezing":
+switch (true){
+
+    case (temperature < 0):
         console.log("It is freezing")
         break
 
-    case "cold":
+    case (temperature >= 0 && temperature <= 15):
         console.log("It is cold")
         break
 
-    case "mild":
+    case (temperature >= 16 && temperature <= 25):
         console.log("It is mild")
         break
 
-    case "warm":
+    case (temperature > 25):
         console.log("It is warm")
         break
 
