@@ -1,6 +1,6 @@
-//1. Temperature check
-    //(i). If...
-
+//Exercise 1: Temperature check
+    
+//(1)
 
 let temperature = 0
 
@@ -20,7 +20,7 @@ else{
     console.log("Unknown weather")
 }
 
-//(ii) Switch
+//(2)
 
 let temperature = 0
 
@@ -46,7 +46,9 @@ switch (true){
         console.log("Unknown weather")
 }
 
-//2 (i) Divisibility
+// Exercise 2: Divisibility check
+
+//(1)
 
 let number = 12
 
@@ -63,7 +65,7 @@ else{
     console.log("Not divisible by 2 or 3")
 }
 
-// (ii) Devisibilty Switch
+// (2) 
 
 let number = 12
 
@@ -85,10 +87,46 @@ switch(true){
         console.log("Not divisible by 2 or 3")
 }
 
-//3 for loops
+// Exersice 3 for loops
+
+// (1)
 
 for(let number = 1; number <= 10; number ++)
 {
     console.log(number)
 }  
 
+// (2)
+
+for(let number = 1; number <= 20; number ++)
+{
+    if(number % 2 === 0){
+        console.log(number)
+    }
+}
+
+// (3)
+
+let sum = 0
+
+for(let number = 1; number <= 100; number ++)
+{
+    sum += number
+}
+console.log(sum)
+
+// (4)
+
+const numbers = [1,2,3,4,5]
+
+console.log(numbers[0])
+console.log(numbers[1])
+console.log(numbers[2])
+console.log(numbers[3])
+console.log(numbers[4])
+
+// (5)
+
+const numbers = [3,7, 2, 5, 10, 6]
+
+console.log(numbers[4])
