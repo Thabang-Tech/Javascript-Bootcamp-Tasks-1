@@ -46,7 +46,7 @@ switch (true){
         console.log("Unknown weather")
 }
 
-//2 (i)
+//2 (i) Divisibility
 
 let number = 12
 
@@ -63,7 +63,7 @@ else{
     console.log("Not divisible by 2 or 3")
 }
 
-// (ii)
+// (ii) Devisibilty Switch
 
 let number = 12
 
@@ -84,3 +84,11 @@ switch(true){
     default:
         console.log("Not divisible by 2 or 3")
 }
+
+//3 for loops
+
+for(let number = 1; number <= 10; number ++)
+{
+    console.log(number)
+}  
+
