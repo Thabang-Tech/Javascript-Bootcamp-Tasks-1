@@ -154,7 +154,7 @@ while(number <= 20)
     number ++
 }
 
-// (3
+// (3)
 let number = 1
 let sum = 0
 
@@ -165,12 +165,39 @@ while(number <= 100)
 }
 console.log(sum)
 
-// 4
+// (4)
 
-let number = 5
+let number = 1
 
 while(number <= 50)
 {
+    if(number % 5 === 0){
     console.log(number)
-    number +=5
+    }
+    number ++
 }
+
+//  Exercise 5: Do while loops
+
+// (1)
+
+let number = 1
+
+do {
+    console.log(number)
+    number++
+}
+while(number <= 10)
+
+// (2)
+
+let sum = 0
+let number = 1
+
+do{
+    sum += number
+    number ++
+}
+while(number <= 100)
+
+console.log(sum)
