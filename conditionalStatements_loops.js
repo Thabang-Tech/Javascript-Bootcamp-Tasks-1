@@ -201,3 +201,32 @@ do{
 while(number <= 100)
 
 console.log(sum)
+
+// (3)
+
+let number
+
+do {
+    number = Number(prompt("Enter a number greater than 10"))
+}
+while (number <= 10)
+
+console.log("Valid number entered:", number)
+
+// (4)
+
+let secretNumber = 5
+let guess
+
+do{
+    guess = Number(
+        readline.question("Guess a number between 1 and 10:")
+    )
+
+    if(guess !== secretNumber){
+        console.log("Wrong guess. Try again.")
+    }
+}
+while (guess !== secretNumber)
+
+console.log("correct! You guessed the number.")
