@@ -130,3 +130,47 @@ console.log(numbers[4])
 const numbers = [3,7, 2, 5, 10, 6]
 
 console.log(numbers[4])
+
+// Exercise 4: While Loops
+
+// (1)
+
+let number = 1
+
+while(number <= 10){
+    console.log(number)
+    number++
+}
+
+// (2)
+
+let number = 1
+
+while(number <= 20)
+{
+    if(number % 2 === 0){
+        console.log(number)
+    }
+    number ++
+}
+
+// (3
+let number = 1
+let sum = 0
+
+while(number <= 100)
+{
+    sum += number
+    number ++
+}
+console.log(sum)
+
+// 4
+
+let number = 5
+
+while(number <= 50)
+{
+    console.log(number)
+    number +=5
+}
